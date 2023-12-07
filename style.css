@@ -8,8 +8,11 @@ body {
 }
 
 h1 {
-    background-color: #262A10;
+    background-color: #54442B;
     color: #E8985E;
+    padding: 0.1em 0.25em 0.1em 0.25em; 
+    border-radius: 15px;
+    margin: 50px 0px 10px 0px;
 }
 
 h2 {
@@ -17,4 +20,27 @@ h2 {
     color: #262A10;
     font-size: 4em;
     padding: 0.25em 0.5em 0.25em 0.5em;
+    border-radius: 25px;
+    margin: 15px 10px 20px 10px;
+}
+
+button {
+    width: 15em;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+#counter-btn {
+    background-color: #54442B;
+    color: #E8985E;
+}
+
+#subtractor-btn {
+    background-color: #E8985E;
+    color: #262A10;
+}
+
+#save-btn {
+    background-color: #54442B;
+    color: #E8985E;
 }
