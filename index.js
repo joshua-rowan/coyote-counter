@@ -13,3 +13,9 @@ function subtractor() {
     countEl.textContent = count
 }
 
+function save() {
+    let saveCount = count + " - "
+    saveEl.textContent += saveCount
+    count = 0
+    countEl.textContent = count
+}
